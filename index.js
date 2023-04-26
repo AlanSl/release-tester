@@ -1,3 +1,3 @@
-const package = require('./package.json')
+const packageJson = require("./package.json");
 
-console.info('Release info:', package)
+console.info("Release info:", packageJson);
