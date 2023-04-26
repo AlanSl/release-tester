@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "husky install",
-    "test": "print \"No tests\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
