@@ -22,7 +22,7 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: nearform-actions/optic-release-automation-action@issue-249-double-quotes
+      - uses: AlanSl/optic-release-automation-action@feat/provenance
         with:
           semver: ${{ github.event.inputs.semver }}
           commit-message: 'chore: release {version}'
