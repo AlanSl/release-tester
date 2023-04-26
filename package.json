@@ -1,6 +1,6 @@
 {
   "name": "@alan.slater/release-tester",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Dummy package for testing release automation and dependency management tools.",
   "main": "index.js",
   "scripts": {
