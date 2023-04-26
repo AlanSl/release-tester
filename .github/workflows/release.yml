@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 #     SHA of latest commit in feat/provenance branch
-      - uses: AlanSl/optic-release-automation-action@d8b2ffa5eea617789d50b7c85b6a3890c6eb17d3
+      - uses: AlanSl/optic-release-automation-action@66d84da4a65b2298e92920b772e6a343c74f75ed
         with:
           semver: ${{ github.event.inputs.semver }}
           commit-message: 'chore: release {version}'
