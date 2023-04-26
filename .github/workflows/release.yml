@@ -27,7 +27,7 @@ jobs:
       - name: Verify NPM version
         run: npm -v
 #     SHA of latest commit in feat/provenance branch
-      - uses: AlanSl/optic-release-automation-action@89ab69680620f934306b04472642bd4078f7ab6c
+      - uses: AlanSl/optic-release-automation-action@3a5dfd294c556daab4ff5e72f8fb8bb95e56f4ae
         with:
           semver: ${{ github.event.inputs.semver }}
           commit-message: 'chore: release {version}'
