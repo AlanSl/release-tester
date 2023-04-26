@@ -125,3 +125,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# eslint
+.eslintcache
+
+# JetBrains IDEs
+.idea
+# Visual Studio Code
+.vscode
+
+# OS X
+.DS_Store
