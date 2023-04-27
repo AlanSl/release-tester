@@ -3,6 +3,7 @@
   "version": "0.2.9",
   "description": "Dummy package for testing release automation and dependency management tools.",
   "main": "index.js",
+  "url": "git+https://github.com/AlanSl/release-tester",
   "scripts": {
     "lint": "eslint .",
     "prepare": "husky install",
