@@ -21,11 +21,11 @@ jobs:
       pull-requests: write
       contents: write
 #     `id-token: write` is required by NPM provenance  
-      id-token: write
+#      id-token: write
     runs-on: ubuntu-latest
     steps:
 #     Explicitly set NPM version
-      - run: "npm i -g npm@latest"
+      - run: "npm i -g npm@9.5.1"
       - run: "npm -v"
 #     SHA of latest commit in feat/provenance branch
       - uses: AlanSl/optic-release-automation-action@acb725fea46171166cefeb08e97be5acc1ff67d4
