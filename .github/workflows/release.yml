@@ -24,6 +24,9 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     steps:
+#     Explicitly set NPM version
+      - run: "npm i -g npm@9.4.0"
+      - run: "npm -v"
 #     SHA of latest commit in feat/provenance branch
       - uses: AlanSl/optic-release-automation-action@27a9ae0041ca79a5a20ab32ead0c96332f7f97f3
         with:
