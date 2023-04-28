@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 #     SHA of latest commit in feat/provenance branch
-      - uses: AlanSl/optic-release-automation-action@5b3f1ed85341d89d6192d77ae264cab37ad80909
+      - uses: AlanSl/optic-release-automation-action@27a9ae0041ca79a5a20ab32ead0c96332f7f97f3
         with:
           semver: ${{ github.event.inputs.semver }}
           commit-message: 'chore: release {version}'
@@ -33,4 +33,3 @@ jobs:
           optic-token: ${{ secrets[format('OPTIC_TOKEN_{0}', github.actor)] || secrets.OPTIC_TOKEN }}
           build-command: npm ci
           provenance: true
-
