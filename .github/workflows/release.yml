@@ -21,7 +21,7 @@ jobs:
       pull-requests: write
       contents: write
 #     `id-token: write` is required by NPM provenance  
-#      id-token: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
 #     Explicitly set NPM version
@@ -35,4 +35,4 @@ jobs:
           npm-token: ${{ secrets[format('NPM_TOKEN_{0}', github.actor)] || secrets.NPM_TOKEN }}
           optic-token: ${{ secrets[format('OPTIC_TOKEN_{0}', github.actor)] || secrets.OPTIC_TOKEN }}
           build-command: npm ci
-#          provenance: true
+          provenance: true
