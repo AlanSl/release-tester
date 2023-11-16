@@ -16,7 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/config-conventional": "^18.4.2",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^4.2.1",
